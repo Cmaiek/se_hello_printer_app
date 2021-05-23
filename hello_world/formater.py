@@ -39,12 +39,12 @@ def format_to_xml(msg, imie):
 
 
 def format_to_json(msg, imie):
-    formatted_output = {'imie': imie, 'msg': msg}
+    formatted_output = {"imie": imie, "msg": msg}
     return json.dumps(formatted_output)
 
 
 def plain_text(msg, imie):
-    return imie + ' ' + msg
+    return imie + " " + msg
 
 
 def plain_text_upper_case(msg, imie):
