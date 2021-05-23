@@ -28,7 +28,7 @@ def get_formatted(msg, imie, format):
 def format_to_xml(msg, imie):
     xml_greeting = etree.Element("greetings")
 
-    xml_imie = etree.SubElement(xml_greeting, "imie")
+    xml_imie = etree.SubElement(xml_greeting, "name")
     xml_imie.text = imie
 
     xml_msg = etree.SubElement(xml_greeting, "msg")
