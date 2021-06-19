@@ -16,3 +16,8 @@ script:
 
 after_success:
   - make docker_push
+
+deploy:
+  provider: heroku
+  app: immense-fjord-21653
+  api_key: ${HEROKU_API_KEY}
