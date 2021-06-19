@@ -4,6 +4,7 @@ deps:
 
 lint:
 	black hello_world test
+	radon cc hello_world
 
 .PHONY: test
 test:

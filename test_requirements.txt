@@ -4,3 +4,4 @@ flake8
 lxml
 black
 pytest-cov
+radon
