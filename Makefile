@@ -1,6 +1,6 @@
 deps:
-	pip install -r requirements.txt; \
-	pip install -r test_requirements.txt
+	pip3 install -r requirements.txt; \
+	pip3 install -r test_requirements.txt
 
 lint:
 	black hello_world test
