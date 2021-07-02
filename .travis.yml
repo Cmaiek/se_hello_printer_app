@@ -10,8 +10,8 @@ install:
   - make deps
 
 script:
-  - make test_xunit
   - make lint
+  - make test_xunit
   - make docker_build
 
 after_success:
