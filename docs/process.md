@@ -8,7 +8,8 @@ W celu usprawnienia procesów, instrukcje do wykonania na poszczególnych etapac
 1. ### GitHub
 Kod aplikacji przechowywany jest w repozytorium na www.github.com. Proces CI/CD uruchamiany jest automatycznie w przypadku wgrania ("push") zmian do gałęzi "master". __Proces nie jest uruchamiany przez pull requests__. Do repozytorium automatyczny dostęp posiada aplikacia Travis CI, która po wykryciu nowego commitu uruchamia proces testowania kodu i budowania aplikacji.
 
-> Z kontroli wersji wyłączone są elementy wskazane w pliku _.gitignore_.
+Z kontroli wersji wyłączone są elementy wskazane w pliku _.gitignore_.
+
 
 ![Diagram zawierający opis procesu CI/CD dla Hello World Printer](hello_printer_CI_CD_diagram.png "HWP CI/CD workflow").
 
